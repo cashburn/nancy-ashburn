@@ -1,0 +1,47 @@
+body {
+  color: #868e96;
+  padding-top: 4em;
+}
+
+.primary {
+  background-color: #563d7c;
+}
+
+.bar {
+  min-height: 4rem;
+  background-color: #563d7c;
+  z-index: -1;
+}
+
+.nav {
+  top: 0;
+  background-color: #563d7c;
+  margin-bottom: 3em;
+}
+
+.nav > .nav-link {
+  z-index: 3;
+  color: #cbbde2;
+}
+
+.nav > .nav-link:hover {
+  color: #fff;
+}
+
+.profile-container {
+  position: absolute;
+  top: 2em;
+  z-index: 2;
+}
+
+.img-profile {
+  position: relative;
+  max-width: 8rem;
+  max-height: 8rem;
+  border: 0.5rem solid rgb(255, 255, 255, 0.2);
+  z-index: 10000;
+}
+
+.container {
+  z-index: -3;
+}
