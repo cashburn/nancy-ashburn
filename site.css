@@ -45,3 +45,7 @@ body {
 .container {
   z-index: -3;
 }
+
+.family {
+  max-height: 17rem;
+}
